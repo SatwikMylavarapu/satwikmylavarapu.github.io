@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Satwik | Data Scientist Portfolio</title>
+  
+    <!-- ✅ Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+    <!-- ✅ Your Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  </head>
+  
+<body>
+
+  <video autoplay muted loop id="bgVideo">
+    <source src="assets/background.mp4" type="video/mp4" />
+  </video>
+  
+
+  <header>
+    <h1>Satwik</h1>
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="socials">
+      <a href="https://github.com/satwikmylavarapu" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/satwik-mylavarapu" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:satwikmylavarapu@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    
+  </header>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="exp-card">
+      <img src="assets/icons/university.png" alt="UB Icon" style="width:40px; margin-bottom:10px;">
+      <h3>University at Buffalo – SUNY</h3>
+      <p>Master of Science in Data Science</p>
+      <p>Aug 2023 – Jan 2025</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="exp-grid">
+      <div class="exp-card">
+        <h3>Research Assistant – University at Buffalo</h3>
+        <p>Increased forecasting accuracy from 78% to 94% by developing ML models (Python, Scikit-learn, TensorFlow) on AWS SageMaker.</p>
+        <p>Built an MLOps pipeline for automated model retraining using SageMaker, and Kubernetes, ensuring scalable deployment.</p>
+      </div>
+      <div class="exp-card">
+        <h3>Data Science Analyst – DataBeat.io</h3>
+        <p>Developed A/B testing models for marketing teams, leading to a 30% increase in revenue and a 65% boost in engagement by
+          optimizing campaign targeting.</p>
+        <p>Automated SQL-based financial reporting, reducing manual effort by 70% and cutting reporting time from 3 days to 6 hours,
+          ensuring faster decision-making.</p>
+          <p>Designed and deployed real-time Power BI dashboards for KPI monitoring, enabling data-driven insights and reducing business
+            reporting delays by 40%.</p>
+      </div>
+      <div class="exp-card">
+        <h3>Data Scientist – Saboo Diagnostics</h3>
+        <p>Developed and deployed ML models on 50,000+ patient records to identify high-risk disease factors, enhancing early detection and
+          clinical decision-making.</p>
+        <p>Optimized an ML pipeline, improving F1-score from 72% to 89% for post-COVID complication classification, leading to a 25%
+          reduction in misdiagnosis rates.</p>
+          <p>Developed a Google Analytics dashboard to track patient demographics, disease progression trends, and treatment efficacy, enabling
+            data-driven insights for physicians and reducing patient readmission rates by 25%.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills Overview</h2>
+    <div class="skills-container">
+      <div class="skill-chart">
+        <canvas id="dataScienceChart" width="700" height="700"></canvas>
+        <p>Data Science Stack</p>
+      </div>
+      <div class="skill-chart">
+        <canvas id="mlopsChart" width="700" height="700"></canvas>
+        <p>MLOps & GenAI Stack</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/projects/project1.png" />
+        <h3>AI Memory Recall System</h3>
+        <p>FastAPI + MongoDB + Whisper + Gemini AI + docker + AWS.</p>
+        <p>Voice-to-text assistant with smart LLM memory engine.</p>
+        <a href="https://github.com/SatwikMylavarapu/AI-Memory-Recall" target="_blank" class="btn-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/projects/project2.png" />
+        <h3>Fraud Detection</h3>
+        <p>XGBoost + AWS Sagemaker + Prediction.</p>
+        <p>Deployed via SageMaker + FastAPI with 94% AUC.</p>
+        <a href="https://github.com/SatwikMylavarapu/creditcard_fraud_detection" target="_blank" class="btn-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/projects/project3.png" />
+        <h3>Crypto Tracker</h3>
+        <p>Streamlit + API + WebScraping + Beautifulsoup.</p>
+        <p>Built a real-time Streamlit app for crypto tracking using REST APIs and web scraping.</p>
+        <a href="https://cryptoapp-yvvcbhckhn5vhkzcgjpbfk.streamlit.app" target="_blank" class="btn-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/projects/project4.png" />
+        <h3>US Unemployment Analysis</h3>
+<p>Tableau + Forecasting.</p>
+<p>Built an interactive Tableau dashboard showcasing time-based, regional, and demographic insights.</p>
+        <a href="https://public.tableau.com/app/profile/ushaswini.punna/vizzes" target="_blank" class="btn-link">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/projects/project5.jpeg" />
+        <h3>ETL Pipeline</h3>
+        <p>Airbyte → dbt → Dagster orchestration.</p>
+        <p>Data flow from PostgreSQL to BigQuery.</p>
+        <a href="https://github.com/SatwikMylavarapu/end-to-end-data-engineering-project-4413618" target="_blank" class="btn-link">View Project</a>
+      </div>
+    </div>
+  </section>
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <img src="assets/certificates/aws.png" alt="AWS Certificate" />
+        <h4>AWS Cloud Practitioner</h4>
+        <a class="btn-link" target="_blank" href="https://www.credly.com/badges/3f7977df-0b88-4ee4-acf9-775a3952c145">View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <img src="assets/certificates/pwc.png" alt="Power BI Certificate" />
+        <h4>Power BI – PWC Forage</h4>
+        <a class="btn-link" target="_blank" href="#">View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <img src="assets/certificates/oracle.png" alt="Oracle GenAI Certificate" />
+        <h4>Oracle Generative AI Certified</h4>
+        <a class="btn-link" href="#" target="_blank">View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <img src="assets/certificates/azure.png" alt="Azure AI Certificate" />
+        <h4>Azure AI Studio – Microsoft & LinkedIn</h4>
+        <a class="btn-link" href="#" target="_blank">View Certificate</a>
+      </div>
+      <div class="cert-card">
+        <img src="assets/certificates/knime.jpeg" alt="KNIME Data Science Certificate" />
+        <h4>Data Science Certificate – KNIME</h4>
+        <a class="btn-link" href="#" target="_blank">View Certificate</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <span class="email">satwikmylavarapu@gmail.com</span></p>
+    <div class="socials">
+      <a href="https://github.com/SatwikMylavarapu" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/satwik-mylavarapu/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:satwikmylavarapu@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    
+    
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
