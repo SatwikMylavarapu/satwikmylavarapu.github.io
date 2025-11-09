@@ -7,7 +7,7 @@ new Chart(ctx1, {
     labels: ['Python', 'SQL', 'R', 'MySQL', 'Data Analysis', 'Data Visualization', 'Data Warehousing', 'ETL'],
     datasets: [{
       label: 'Data Science Skills',
-      data: [9, 9, 7, 9, 9, 9, 9, 9],
+      data: [9, 9, 7, 9, 9, 9, 8, 8],
       backgroundColor: 'rgba(255,255,255,0.1)',
       borderColor: 'white',
       pointBackgroundColor: 'white'
@@ -38,7 +38,7 @@ new Chart(ctx2, {
     labels: ['MLOps', 'AWS', 'GCP', 'Azure AI', 'Machine Learning', 'Deep Learning', 'Neural Networks', 'Transformers', 'Docker'],
     datasets: [{
       label: 'MLOps & ML Stack',
-      data: [9, 9, 8, 8, 9, 9, 9, 7, 8],
+      data: [8, 9, 7, 7, 9, 9, 9, 7, 8],
       backgroundColor: 'rgba(255,255,255,0.1)',
       borderColor: 'white',
       pointBackgroundColor: 'white'
